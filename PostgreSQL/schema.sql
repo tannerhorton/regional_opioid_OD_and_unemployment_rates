@@ -11,5 +11,3 @@ id INT Primary Key,
 	"Crude Rate_Upper Confidence Interval" 					float,
 	"Prescriptions Dispensed_by US Retailers (millions)" 	int
 
--- print table 
-select * from opioid_merged
