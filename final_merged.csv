@@ -1,4 +1,4 @@
-,Year,State,Unemployment Rate,Opioid Related Deaths,Population,Crude Rate,Crude Rate Lower 95% Confidence Interval,Crude Rate Upper 95% Confidence Interval,Prescriptions Dispensed by US Retailers in that year (millions)
+,Year,State,Unemployment Rate (%),Opioid Related Deaths,Population,Crude Rate,Crude Rate Lower 95% Confidence Interval,Crude Rate Upper 95% Confidence Interval,Prescriptions Dispensed by US Retailers in that year (millions)
 0,1999,Alabama,6.621641791044777,39,4430141,0.9,0.6,1.2,116
 1,1999,Arizona,9.251666666666667,250,5023823,5,4.4,5.6,116
 2,1999,Arkansas,5.624666666666666,29,2651860,1.1,0.7,1.6,116
