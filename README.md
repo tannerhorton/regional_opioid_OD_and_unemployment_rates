@@ -15,11 +15,18 @@ Methodology:
     Using Python and Pandas, the downloaded CSV files were read into an interactive notebook where the data was cleaned. SQLAlchemy was then used to connect to a local database and upload the newly created database into PostgreSQL. 
 
 Findings:
-    Although the unemployment database started out with more than 800,000 unique rows due to its larger time frame (26 years in total) and breakdown by county, the scope of the final merged database was limited by the opioid data, which covered only fifteen years. If given more time to complete this project, per county death tolls would ease the process of establishing whether or not a connection existed between regional unemployment rates and the proliferation of the opioid epidemic for the given years. Sources:
-•    https://www.kaggle.com/datasets/jazzang/opioid-overdose-deaths 
+    Although the unemployment database started out with more than 800,000 unique rows due to its larger time frame (26 years in total) and breakdown by county, the scope of the final merged database was limited by the opioid data, which covered only fifteen years. If given more time to complete this project, per county death tolls would ease the process of establishing whether or not a connection existed between regional unemployment rates and the proliferation of the opioid epidemic for the given years. 
+    
+Sources:
+    
+•https://www.kaggle.com/datasets/jazzang/opioid-overdose-deaths 
 
 o    Which references: https://data.world/health/opioid-overdose-deaths
 
-•    https://www.kaggle.com/datasets/jayrav13/unemployment-by-county-us
+•https://www.kaggle.com/datasets/jayrav13/unemployment-by-county-us
 
-o    https://data.bls.gov/lausmap/showMap.jsp;jsessionid=69D7D1AF451AC910D864E1FFEC668631._t3_08v
+o    Which references:   https://data.bls.gov/lausmap/showMap.jsp;jsessionid=69D7D1AF451AC910D864E1FFEC668631._t3_08v
+
+- https://www.cdc.gov/mmwr/volumes/65/wr/mm655051e1.htm
+
+- https://dbdiagram.io/d/63924fe5bae3ed7c4545ae55
