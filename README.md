@@ -1,34 +1,36 @@
-# regional_opioid_project
-Extract Transform Load
+# Comparing Fatal Regional Opioid Overdose Deaths to Municipality Unemployment Rate
 
-Comparing Fatal Regional Opioid Overdose Deaths to Municipality Unemployment Rate
-Overview
+## Overview
+
 This project uses geographical data to compare the fatal regional opioid overdose deaths to municipality unemployment rate in the United States. The data used in this analysis was collected from various sources and processed using Python.
 
-Data Sources
+## Data Sources
+
 The following datasets were used in this analysis:
 
-Fatal Opioid Overdose Data: This dataset was obtained from the National Institute on Drug Abuse. It contains information on fatal opioid overdoses in the United States from 1999 to 2019, including the state and county where the death occurred.
+- **Fatal Opioid Overdose Data:** This dataset was obtained from the National Institute on Drug Abuse. It contains information on fatal opioid overdoses in the United States from 1999 to 2019, including the state and county where the death occurred.
 
-Unemployment Data: This dataset was obtained from the Bureau of Labor Statistics. It contains information on unemployment rates by municipality for the year 2019.
+- **Unemployment Data:** This dataset was obtained from the Bureau of Labor Statistics. It contains information on unemployment rates by municipality for the year 2019.
 
-Methodology
+## Methodology
+
 The analysis was conducted in Python using the following steps:
 
-Data preprocessing: The opioid overdose data and unemployment data were cleaned and processed to remove any missing values and to ensure that the data was in the correct format for analysis.
+1. Data preprocessing: The opioid overdose data and unemployment data were cleaned and processed to remove any missing values and to ensure that the data was in the correct format for analysis.
 
-Geocoding: The municipality unemployment data was geocoded using the Google Maps API to obtain latitude and longitude coordinates for each municipality.
+2. Geocoding: The municipality unemployment data was geocoded using the Google Maps API to obtain latitude and longitude coordinates for each municipality.
 
-Data aggregation: The opioid overdose data was aggregated by county, and the municipality unemployment data was aggregated by county as well. This allowed us to compare opioid overdose deaths to unemployment rates on a county level.
+3. Data aggregation: The opioid overdose data was aggregated by county, and the municipality unemployment data was aggregated by county as well. This allowed us to compare opioid overdose deaths to unemployment rates on a county level.
 
-Data visualization: The data was visualized using Python's matplotlib library to create a map of the United States that shows the fatal opioid overdose rate by county and the unemployment rate by municipality.
+4. Data visualization: The data was visualized using Python's matplotlib library to create a map of the United States that shows the fatal opioid overdose rate by county and the unemployment rate by municipality.
 
-Results
-The results of this analysis show a strong correlation between fatal opioid overdose rates and unemployment rates. Counties with high unemployment rates tend to have higher opioid overdose rates, while counties with low unemployment rates tend to have lower opioid overdose rates.
+## Results
+
+The results of this analysis show a strong correlation between fatal opioid overdose rates and unemployment rates. Counties with high unemployment rates tend to have higher opioid overdose rates, while counties with low unemployment rates tend to have lower opioid overdose rates. 
 
 The map created as part of this analysis shows the opioid overdose rate by county, with darker colors indicating higher rates. The map also shows the municipality unemployment rate, with larger circles indicating higher rates. By comparing these two maps, we can see that there is a clear relationship between opioid overdose rates and unemployment rates.
 
-Conclusion
+## Conclusion
 This analysis demonstrates the value of using geographical data to analyze the relationship between opioid overdose rates and unemployment rates. By visualizing the data on a map, we can see patterns and relationships that might not be apparent from raw data alone. The results of this analysis could be used to inform public health and economic policy decisions aimed at reducing opioid overdose rates in high-risk areas.
 
 Objective:
