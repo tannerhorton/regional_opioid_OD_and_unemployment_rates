@@ -1,4 +1,4 @@
-# Comparing Fatal Regional Opioid Overdose Deaths to Municipality Unemployment Rate
+# Comparing Fatal Regional Opioid Overdose and Municipality Unemployment Rates
 
 ## Overview
 
